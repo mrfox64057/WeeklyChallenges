@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "1R3CxT7L0vz/oPjmyTVACaBRmgrvT8MT2VHhFosWJdCrsYHLcs3ToKiyHfY0A+dyprO57cG4g64C3eObdu0Wbg==",
-  "success": false,
+  "dgSpecHash": "6mVwvcewDvYCSCzansUI3WaCJnaA+nOA5b/rbXAjMrVdo+jEu5AmrexyLgF4K3ibX7r0PSIU0OXHEn5OJfcUWw==",
+  "success": true,
   "projectFilePath": "C:\\Users\\Adam\\Desktop\\Repos\\WeeklyChallenges\\ChallengesWithTestsMark8.Tests\\ChallengesWithTestsMark8.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Adam\\.nuget\\packages\\microsoft.codecoverage\\15.9.0\\microsoft.codecoverage.15.9.0.nupkg.sha512",
@@ -108,24 +108,14 @@
     "C:\\Users\\Adam\\.nuget\\packages\\system.xml.xmlserializer\\4.0.11\\system.xml.xmlserializer.4.0.11.nupkg.sha512",
     "C:\\Users\\Adam\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
     "C:\\Users\\Adam\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
-    "C:\\Users\\Adam\\.nuget\\packages\\xunit\\2.4.0\\xunit.2.4.0.nupkg.sha512",
+    "C:\\Users\\Adam\\.nuget\\packages\\xunit\\2.4.2\\xunit.2.4.2.nupkg.sha512",
     "C:\\Users\\Adam\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
-    "C:\\Users\\Adam\\.nuget\\packages\\xunit.analyzers\\0.10.0\\xunit.analyzers.0.10.0.nupkg.sha512",
+    "C:\\Users\\Adam\\.nuget\\packages\\xunit.analyzers\\1.0.0\\xunit.analyzers.1.0.0.nupkg.sha512",
     "C:\\Users\\Adam\\.nuget\\packages\\xunit.assert\\2.4.2\\xunit.assert.2.4.2.nupkg.sha512",
-    "C:\\Users\\Adam\\.nuget\\packages\\xunit.core\\2.4.0\\xunit.core.2.4.0.nupkg.sha512",
+    "C:\\Users\\Adam\\.nuget\\packages\\xunit.core\\2.4.2\\xunit.core.2.4.2.nupkg.sha512",
     "C:\\Users\\Adam\\.nuget\\packages\\xunit.extensibility.core\\2.4.2\\xunit.extensibility.core.2.4.2.nupkg.sha512",
-    "C:\\Users\\Adam\\.nuget\\packages\\xunit.extensibility.execution\\2.4.0\\xunit.extensibility.execution.2.4.0.nupkg.sha512",
+    "C:\\Users\\Adam\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512",
     "C:\\Users\\Adam\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.0\\xunit.runner.visualstudio.2.4.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1107",
-      "level": "Error",
-      "message": "Version conflict detected for xunit.assert. Install/reference xunit.assert 2.4.2 directly to project ChallengesWithTestsMark8.Tests to resolve this issue. \r\n ChallengesWithTestsMark8.Tests -> ChallengesWithTestsMark8 -> xunit.assert (>= 2.4.2) \r\n ChallengesWithTestsMark8.Tests -> xunit 2.4.0 -> xunit.assert (= 2.4.0).",
-      "libraryId": "xunit.assert",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }
