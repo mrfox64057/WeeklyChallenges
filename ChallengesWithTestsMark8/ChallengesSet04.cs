@@ -156,22 +156,22 @@ namespace ChallengesWithTestsMark8
 
         public int Factorial(int number)
         {
-            return number < 0 ? throw new ArgumentOutOfRangeException("number", "Input cannot be negative") : Enumerable.Range(1, number).Aggregate((x, y) => x * y);
+            //return number < 0 ? throw new ArgumentOutOfRangeException("number", "Input cannot be negative") : Enumerable.Range(1, number).Aggregate((x, y) => x * y);
 
-            //if (number < 0)
-            //{
-            //    throw new ArgumentOutOfRangeException("number", "Input cannot be negative");
-            //}
+            if (number < 0)
+            {
+                throw new ArgumentOutOfRangeException("number", "Input cannot be negative");
+            }
 
-            //int result = 1;
+            int result = 1;
 
-            //while (number > 0)
-            //{
-            //    result *= number;
-            //    number--;
-            //}
+            while (number > 0)
+            {
+                result *= number;
+                number--;
+            }
 
-            //return result;
+            return result;
         }
     }
 }
